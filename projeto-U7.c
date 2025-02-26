@@ -56,8 +56,8 @@ typedef enum
 
 // Variáveis globais
 volatile estado_motor_t estado_motor = MOTOR_DESLIGADO; // Estado atual do motor
-absolute_time_t tempo_inicio_parado;                    // Tempo em que o motor ficou parado
 volatile uint32_t last_interrupt_time = 0;              // Último tempo de interrupção
+absolute_time_t tempo_inicio_parado;                    // Tempo em que o motor ficou parado
 uint32_t gasto_tempo = 0;                               // Tempo de movimento do motor
 uint32_t viagem = 0;                                    // Contador de viagens
 uint32_t tempo_ocioso = 0;                              // Tempo ocioso do motor

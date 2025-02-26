@@ -193,7 +193,8 @@ void ssd1306_draw_char(ssd1306_t *ssd, char c, uint8_t x, uint8_t y)
   {
     // Para o símbolo de igualdade
     index = 63 * 8; // 63 é o índice do símbolo '=' na tabela de fontes
-  } else if (c == ':')
+  }
+  else if (c == ':')
   {
     // Para o símbolo de litros
     index = 64 * 8; // 64 é o índice do símbolo 'L' na tabela de fontes
